@@ -1,0 +1,902 @@
+@font-face {  
+    font-family: rubiklight;
+    src: url('../Assets/fonts/Rubik-Light.ttf');
+}
+
+@font-face {  
+    font-family: rubik;
+    src: url('../Assets/fonts/Rubik-Bold.ttf');
+}
+
+@font-face {  
+    font-family: rubikregular;
+    src: url('../Assets/fonts/Rubik-Regular.ttf');
+}
+
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.Home {
+    display: flex;
+    flex-direction: column;
+    max-width: 94rem;
+    min-width: 330px;
+    margin: 0 auto;
+    height: 100vh;
+    font-family: rubik;
+    overflow-x: hidden;
+}
+
+.first {
+    background-image: url("../Assets/Images/firctback.png");
+    color: white;
+}
+
+.firstcontainer {
+    background: rgba(27.03, 19.72, 47.81, 0.80);
+}
+
+.navlinks  {
+    display: flex;
+}
+
+.navlinks span {
+    margin-left: 15px;
+    font-size: 13px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.navlinks span:hover {
+    color: rgb(100, 100, 100);
+}
+
+.topnav {
+    max-height: 30px;
+    font-family: rubikregular;
+}
+
+.container-d {
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 74rem;
+}
+
+.flexcontent {
+    padding-top: 24px;
+}
+
+.fheader h1 {
+    font-family: rubik;
+    font-size: 50px;
+}
+
+.twoview {
+    padding-top: 30px;
+}
+
+.innovasec {
+    margin-top: 55px;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.workercontainer img {
+    max-width: 488px;
+    max-height: 518px;
+}
+
+.constructure {
+    padding-left: 2px;
+    max-height: 36px;
+    font-weight: 500;
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+.vct {
+    padding: 10px 2px;
+    margin-right: 9px;
+    background: linear-gradient(rgba(255, 251, 233, 0), rgba(207, 20, 20, 1), rgba(221, 190, 26, 1));
+}
+
+.tmphvct {
+    padding: 4px 2px;
+    max-width: 2px!important;
+    margin-right: 15px;
+    background: linear-gradient(rgba(255, 251, 233, 0), rgba(207, 20, 20, 1), rgba(221, 190, 26, 1));
+
+}
+
+.tvct {
+    padding: 9px 1px;
+    margin-right: 9px;
+    background: linear-gradient(rgba(255, 251, 233, 0), rgba(207, 20, 20, 1), rgba(221, 190, 26, 1));
+
+}
+
+.abtphvct {
+    padding: 10px 1.5px;
+    margin-right: 9px;
+    background:linear-gradient(rgba(212, 15, 15, 1), rgba(250, 193, 16, 1));
+}
+
+.ctxt {
+    font-weight: 100;
+    font-size: 14px;
+    word-wrap: break-word;
+    font-family: rubikregular;
+}
+
+.constructuretxt {
+    border-left: 5px solid linear-gradient(rgba(255, 251, 233, 0), rgba(207, 20, 20, 1), rgba(221, 190, 26, 1));
+}
+
+.lconstructor img {
+    width: 10px;
+}
+
+.innobtn button {
+    background-color: rgba(250, 193, 16, 1);
+    border-radius: 24px;
+    min-width: 100px;
+    max-width: 135px;
+    padding: 5px 0;
+    font-size: 12px;
+    margin-top: 20px;
+    transition: all .5s ease;
+}
+
+.innobtn button:hover {
+    background-color: rgb(247, 204, 76);
+}
+
+.fheader h1 {
+    margin-bottom: -20px;
+}
+
+.secondsecbdy {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    font-family: rubikregular;
+    font-weight: 200;
+}
+
+.secondsecbdy img {
+    max-width: 600px;
+    width: 95%;
+    object-fit: contain;
+} 
+
+.secoverimg {
+    margin-left: -45%;
+    margin-top: auto;
+    margin-bottom: -30px;
+    height: 75%;
+}
+
+.abtph {
+    margin-left: 32px;
+    max-width: 390px;
+}
+
+.abtphhead {
+    margin-top: 20px;
+}
+
+.abtwea {
+    font-weight: 700;
+    font-family: rubik;
+    font-size: 38px;
+    margin: 20px 0;
+    display: block;
+    color: #222222;
+}
+
+.phstxt {
+    font-family: rubikregular;
+    font-weight: 300;
+    font-size: 14px;
+    margin: 40px 0;
+    display: block;
+}
+
+.abtphtxt {
+    font-size: 12px;
+}
+
+.secondfct {
+    width: 55%;
+}
+
+
+.secondsct {
+    width: 45%;
+}
+
+.countnum {
+    color: #FAC110;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: rubik;
+}
+
+.counttxt {
+    font-family: rubikregular;
+}
+
+.thirdsection {
+    background: #03151D;
+}
+
+.thirdsecheader span {
+    color: white;
+    display: block;
+    max-width: 450px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.thirdsecbdy {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.impcontainer {
+    width: 50%;
+}
+
+.impbox {
+    color: white;
+    padding: 20px;
+    margin: 8px 12px;
+}
+
+.impimg {
+    background: rgba(7.77, 89.35, 124.31, 0.50);
+    padding: 20px;
+    margin-right: 25px;
+    width: 65px;
+    height: 40%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.impimg img {
+    max-height: 40px;
+    max-width: 40px;
+    margin: 0 auto;
+}
+
+
+
+.thirdsecheader {
+    font-weight: 700;
+    font-family: rubik;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+.impbox {
+    background: #042432;
+}
+
+.imptxt {
+    font-weight: 100;
+    font-family: rubiklight;
+    font-size: 10px;
+}
+
+.imphead {
+    font-size: 20px;
+    font-family: rubik;
+    margin-bottom: 15px;
+}
+
+.fourthsecbdy {
+    color: black;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.fourthsechtxt {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+.forthmeet h2 {
+    color: #222222;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    font-family: rubik;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-stretch: narrower;
+}
+
+.fourthsechead > span {
+    margin: 0 auto;
+}
+
+.tmmcontainer {
+    width: 33.33%;
+}
+
+.teammember {
+    margin: 5px 9px;
+}
+
+.rcnews {
+    margin: 5px 9px;
+}
+
+.rcntitle {
+    font-family: rubiklight;
+}
+
+.tmicons span {
+    width: 100%;
+    max-width: 14px;
+    max-height: 14px;
+    margin-right: 5px;
+    color: black;
+    font-family: rubik;
+    margin-left: 10px;
+
+}
+
+.tmtitle {
+    font-family: rubiklight;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.tmname {
+    font-size: 16px;
+}
+
+.portfolio {
+    background: rgba(4, 36, 50, 1);
+}
+
+.recentnews {
+    background: rgba(4, 36, 50, 1);
+}
+
+.portfoliohead {
+   max-height: 120px;
+   margin-top: 70px;
+   margin-bottom: 95px;
+}
+
+.recenthead {
+    max-height: 120px;
+    margin-top: 70px;
+    margin-bottom: 100px;
+ }
+
+.ptcase {
+    font-size: 26px;
+    margin-top: 7px;
+    display: block;
+}
+
+.pflinks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-left: 4px solid rgba(250, 193, 16, 1);
+    max-height: 19px;
+    max-height: 19px;
+    margin: auto;
+    margin-right: 0;
+}
+
+.pflinks span {
+    margin: 0 7px;
+    cursor: pointer;
+}
+
+.pfactive {
+    color: rgba(250, 193, 16, 1);;
+}
+
+.pfimg {
+    width: 33.33%;
+    transition: all .5s ease;
+}
+
+.pfimages {
+    margin-top: -70px;
+}
+
+.testimonialbdy {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.testimonialhead {
+    max-width: 490px;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.testimonialcontent {
+    margin-top: 50px;
+}
+
+.ctcs {
+    font-size: 14px;
+    font-weight: 300;
+    font-family: rubiklight;
+    text-align: center;
+}
+
+.ctestimonial {
+    width: 33.33%;
+}
+
+.tmembers {
+    margin-top: 4rem;
+}
+
+.pticon {
+    max-width: 17px;
+    margin-right: 4px;
+}
+
+.rcicon {
+    max-width: 17px;
+    margin-right: 4px;
+}
+
+.rcompicon {
+    max-width: 24px;
+    margin-right: 4px;
+}
+
+.ctct {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    width: 500px;
+}
+
+.stardiv {
+    margin-top: 3px;
+}
+
+.stardiv img {
+    max-width: 22px;
+    max-height: 22px;
+}
+
+.ctimg img {
+    max-width: 115px;
+}
+
+.ctestcontent {
+    max-width: 94%;
+    font-family: rubik;
+}
+
+.cttxt {
+    color: #042432;
+    font-family: rubiklight;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.ctpost {
+    border-bottom: 2px solid #FAC110;
+    max-width: 60px;
+    font-size: 14px;
+    font-family: rubiklight;
+    margin: 1px 0;
+}
+
+.ctname {
+    font-size: 18px;
+}
+
+.recentarrow {
+    background: rgba(192.40, 209.87, 217.81, 0.20);
+    border-radius: 100%;
+    margin: 0 5px;
+    min-width: 30px;
+    height: 32px;
+  }
+
+  .rcnews {
+    width: 23%;
+  }
+
+  .rccontent {
+    margin-top: -65px;
+    margin-bottom: 60px;
+  }
+
+  .rcomp span {
+    font-weight: 200;
+    font-family: rubiklight;
+    margin: 0 5px;
+  }
+
+  .nextproject {
+    background: url("../Assets/Images/nextproject.png");
+  }
+
+  .nexttxt {
+    color: #11A1E2;
+    font-size: 27px;
+  }
+
+  .nxtprojtxt {
+    color: rgba(7.81, 64.19, 89.25, 0.80);
+  }
+
+  .npctxt {
+    margin-top: 50px;
+    margin-bottom: 70px;
+  }
+
+  .nextquote {
+    margin-top: 15px;
+    background: rgba(8, 64, 89, 1);
+    max-width: 251px;
+    padding: 11px;
+  }
+
+  .linkquote {
+    margin-top: 15px;
+    background: rgba(184, 217, 232, 0.6);
+    color: #5E92AA;
+    /* max-width: 251px; */
+    padding: 11px;
+  }
+
+  .quoteicon {
+    background: rgba(250, 193, 16, 1);
+    border-radius: 100%;
+    padding: 3px;
+    cursor: pointer;
+    }
+
+  .quoteicon img {
+    width: 25px;
+}
+
+.linksbdy {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-family: rubik;
+    color: #042432;
+}
+
+.lkcdiv {
+    width: 23%;
+}
+
+.lkconstru {
+    
+    font-weight: 700;
+}
+
+.txt-drk {
+    color: #084059;
+
+}
+
+.l1txt {
+    color: #084059;
+    font-weight: 200;
+    font-family: rubiklight;
+}
+
+.usflnks {
+    border-left: 2px solid rgba(243, 194, 20, 1);
+    padding-left: 10px;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: rubik;
+}
+
+.sociallinks li {
+    list-style: circle;
+    font-family: rubiklight;
+}
+
+.sociallinks li::before {
+   color: #FAC110;
+}
+
+.ml-g {
+    margin-left: -15px;
+}
+
+.footer {
+   background: rgba(4, 36, 50, 1);
+}
+
+.footertxt {
+    color: #B8D9E8;
+    font-family: rubiklight;
+    padding: 40px 0;
+}
+
+
+
+#sidenav {
+    position: absolute;
+    z-index: 20;
+    visibility: hidden;
+    opacity: 0;
+    width: 0;
+    height: 0px;
+    background-color: #ffffff;
+    transition: all .6s linear;
+}
+
+#sidenav.show {
+    width: 100vw;
+    max-height: 100vh;
+    height: 100vh;
+    visibility: visible;
+    opacity: 1;
+} 
+
+.sidenavbdy span {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: rubik;
+    cursor: pointer;
+}
+
+
+@media (max-width: 1563px) {
+    
+}
+
+@media (max-width: 1023px) {
+    .rcnews {
+        width: 47%;
+      }
+
+    .lkcdiv {
+        width: 48%;
+    }
+
+    .abtwea {
+        font-size: 30px;
+      }
+    
+    .phstxt {
+        font-size: 13px;
+    }
+
+    .thirdsecheader span {
+        font-size: 36px;
+      }
+
+      .forthmeet h2 {
+        font-size: 36px;
+      }
+
+      .tmembers {
+        margin-top: 2rem;
+      }
+
+      .tmname {
+        margin-top: 4px;
+        margin-bottom: 4px;
+      }
+
+      .ctct {
+        font-size: 36px;
+      }
+
+      .ctimg img {
+        max-width: 75px;
+      }
+
+      .ml-g {
+        margin-left: 0px;
+      }
+
+    .sociallinks li {
+        list-style: none;
+    }
+
+    .linkquote {
+        margin-top: 7px;
+        padding: 9px;
+    }
+
+    .secondsecbdy {
+        margin-top: 40px;
+    }
+
+    .stardiv img {
+        max-width: 20px;
+    }
+
+    .lconstructurecontent {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    .secondsecbdy {
+        margin-top: 0px;
+    }
+
+    .innovasec {
+        width: 100%;
+    }
+
+    .workercontainer {
+        width: 100%;
+    }
+
+    .workercontainer img {
+        margin: 0 auto;
+    }
+
+    .secondfct {
+        width: 100%;
+    }
+
+    .secondfct img {
+        margin: 5px 0;
+        width: 100%;
+        max-width: 800px;
+    }
+    
+    
+    .secondsct {
+        width: 100%;
+    }
+
+    .fourthsecbdy {
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+}
+
+@media (max-width: 639px) {
+    .navlinks  {
+        display: none;
+    }
+
+    .ctxt {
+        font-size: 12px;
+    }
+
+    .container-d {
+        margin: 0 auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .secondsct {
+        margin-bottom: 25px;
+    }
+
+    .impcontainer {
+        width: 100%;
+    }
+
+    .thirdsecbdy {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .thirdsecheader span {
+        font-size: 26px;
+    }
+
+    .fourthsecbdy {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .tmmcontainer {
+        width: 100%;
+    }
+
+    .pfimg {
+        width: 100%;
+    }
+
+    .ptcase {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .pflinks {
+        margin-left: 0px;
+    }
+
+    .ctestimonial {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .ctct {
+        width: 100%;
+        font-size: 26px;
+    }
+
+    .testimonialbdy {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .rcnews {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 25px;
+    }
+
+    .recenthead {
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+
+
+
+    .lkcdiv {
+        width: 100%;
+    }
+
+    .footer {
+        margin-top: 25px;
+    }
+
+    .ml-g {
+        margin-left: 0;
+    }
+
+    .nextprojectcontent {
+        margin-bottom: 25px;
+    }
+
+    .linksbdy {
+        margin-top: 25px!important;
+    }
+
+    .abtwea {
+        font-size: 26px;
+    }
+
+    .abtph {
+        margin-left: 0px;
+    }
+
+    .nextprojectcontent {
+        margin-bottom: 0px;
+    }
+
+    .lconstructurecontent {
+        margin-bottom: 15px;
+    }
+
+}
+
+
+
