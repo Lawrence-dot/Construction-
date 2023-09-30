@@ -8,7 +8,7 @@ function Teammember(props) {
       </div>
       <span className="mt-5 tmtitle">{props.title}</span>
       <span className="mt-3 mb-2 tmname font-bold">{props.name}</span>
-      <div className="tmicons mt-3 flex flex-row">
+      <div className="tmicons mt-2 sm:mt-3 flex flex-row">
         <span className="tmphvct"></span>
         <span className="ml-10">
           <img src="./twitter.png" alt="twitter" />

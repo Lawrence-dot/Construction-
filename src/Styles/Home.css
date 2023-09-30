@@ -252,13 +252,14 @@ img {
 
 .impbox {
     color: white;
-    padding: 20px;
+    padding: 18px;
     margin: 8px 12px;
+    border-radius: 6px;
 }
 
 .impimg {
     background: rgba(7.77, 89.35, 124.31, 0.50);
-    padding: 20px;
+    padding: 12px;
     margin-right: 25px;
     width: 65px;
     height: 40%;
@@ -290,7 +291,8 @@ img {
 .imptxt {
     font-weight: 100;
     font-family: rubiklight;
-    font-size: 10px;
+    font-size: 13px;
+    color: #ffffffa4;
 }
 
 .imphead {
@@ -647,6 +649,7 @@ img {
 }
 
 #sidenav.show {
+
     width: 100vw;
     max-height: 100vh;
     height: 100vh;
@@ -655,8 +658,8 @@ img {
 } 
 
 .sidenavbdy span {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     font-family: rubik;
     cursor: pointer;
     transition: all 1s ease;
@@ -672,6 +675,7 @@ img {
 }
 
 .navicon.show {
+    display: flex;
     visibility: visible;
     font-size: 20px;
 }
@@ -831,6 +835,7 @@ img {
 
     .tmmcontainer {
         width: 100%;
+        margin-bottom: 30px;
     }
 
     .pfimg {

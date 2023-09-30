@@ -65,11 +65,21 @@ function Links() {
                 all events coming straight in your mailbox:
               </span>
               <div className="linkquote rounded-full text-white flex">
-                <span className="my-auto">Your Email Address</span>
+                <input
+                  className="bg-transparent w-full"
+                  type="text"
+                  placeholder="Enter Email Address"
+                />
                 <span className="quoteicon block ml-auto">
                   <img src="./dbright.svg" alt="" />
                 </span>
               </div>
+              {/* <div className="linkquote rounded-full text-white flex">
+                <span className="my-auto">Your Email Address</span>
+                <span className="quoteicon block ml-auto">
+                  <img src="./dbright.svg" alt="" />
+                </span>
+              </div> */}
             </div>
           </div>{" "}
         </div>

@@ -1,5 +1,12 @@
 import React from "react";
-import { FaMinus } from "react-icons/fa";
+import {
+  FaBuilding,
+  FaHome,
+  FaMinus,
+  FaNewspaper,
+  FaPersonBooth,
+  FaQuestionCircle,
+} from "react-icons/fa";
 
 function Sidenav() {
   const closenav = () => {
@@ -22,18 +29,23 @@ function Sidenav() {
         </div>
         <div className="flex flex-col" id="navlinks">
           <span className="navicon" onClick={() => selectnav("first")}>
+            <FaHome className="mr-1" size="25px" />
             Home
           </span>
           <span className="navicon" onClick={() => selectnav("about")}>
+            <FaQuestionCircle className="mr-1" size="25px" />
             About Us
           </span>
           <span className="navicon" onClick={() => selectnav("news")}>
+            <FaNewspaper className="mr-1" size="25px" />
             News
           </span>
           <span className="navicon" onClick={() => selectnav("portfolio")}>
+            <FaBuilding className="mr-1" size="25px" />
             Our Projects
           </span>
           <span className="navicon" onClick={() => selectnav("testimonials")}>
+            <FaPersonBooth className="mr-1" size="25px" />
             Client Testimonials
           </span>
         </div>

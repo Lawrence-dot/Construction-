@@ -12,7 +12,14 @@ function Nextproject() {
                 <span className="nxtprojtxt">Next Project?</span>
               </div>
               <div className="nextquote rounded-full text-white flex">
-                <span className="my-auto"> Request A Quote</span>
+                <span className="my-auto">
+                  {" "}
+                  <input
+                    className="bg-transparent w-full"
+                    type="text"
+                    placeholder="Enter Email Address"
+                  />
+                </span>
                 <span className="quoteicon block ml-auto">
                   <img src="./dbright.svg" alt="" />
                 </span>
