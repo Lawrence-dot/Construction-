@@ -4,6 +4,10 @@ import { FaMinus } from "react-icons/fa";
 function Sidenav() {
   const closenav = () => {
     document.getElementById("sidenav").classList.toggle("show");
+    let each = Array.from(document.getElementsByClassName("navicon"));
+    each.forEach((each) => {
+      each.classList.remove("show");
+    });
   };
 
   const selectnav = (nav) => {
@@ -17,11 +21,19 @@ function Sidenav() {
           <FaMinus onClick={closenav} className="ml-auto cursor-pointer" />
         </div>
         <div className="flex flex-col" id="navlinks">
-          <span onClick={() => selectnav("first")}>Home</span>
-          <span onClick={() => selectnav("about")}>About Us</span>
-          <span onClick={() => selectnav("news")}>News</span>
-          <span onClick={() => selectnav("portfolio")}>Our Projects</span>
-          <span onClick={() => selectnav("testimonials")}>
+          <span className="navicon" onClick={() => selectnav("first")}>
+            Home
+          </span>
+          <span className="navicon" onClick={() => selectnav("about")}>
+            About Us
+          </span>
+          <span className="navicon" onClick={() => selectnav("news")}>
+            News
+          </span>
+          <span className="navicon" onClick={() => selectnav("portfolio")}>
+            Our Projects
+          </span>
+          <span className="navicon" onClick={() => selectnav("testimonials")}>
             Client Testimonials
           </span>
         </div>

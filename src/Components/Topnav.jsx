@@ -4,6 +4,10 @@ import { FaSearch } from "react-icons/fa";
 function Topnav() {
   const opennav = () => {
     document.getElementById("sidenav").classList.toggle("show");
+    let each = Array.from(document.getElementsByClassName("navicon"));
+    each.forEach((each) => {
+      each.classList.add("show");
+    });
   };
 
   const selectnav = (nav) => {

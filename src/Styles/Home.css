@@ -44,12 +44,6 @@ img {
     display: flex;
 }
 
-.navlinks span {
-    margin-left: 15px;
-    font-size: 13px;
-    font-weight: 400;
-    cursor: pointer;
-}
 
 .navlinks span:hover {
     color: rgb(100, 100, 100);
@@ -662,10 +656,25 @@ img {
 .sidenavbdy span {
     margin-top: 20px;
     margin-bottom: 20px;
-    font-size: 20px;
     font-family: rubik;
     cursor: pointer;
+    transition: all 1s ease;
+    font-size: 0px;
 }
+
+.navlinks span {
+    margin-left: 15px;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+.navicon.show {
+    visibility: visible;
+    font-size: 20px;
+}
+
 
 
 @media (max-width: 1563px) {
@@ -787,6 +796,10 @@ img {
         font-size: 12px;
     }
 
+    .forthmeet h2 {
+        font-size: 26px;
+      }
+
     .container-d {
         margin: 0 auto;
         padding-left: 15px;
@@ -895,6 +908,13 @@ img {
     .lconstructurecontent {
         margin-bottom: 15px;
     }
+
+    .nextquote {
+        max-width: 228px;
+        padding: 8px;
+    }
+
+    
 
 }
 
