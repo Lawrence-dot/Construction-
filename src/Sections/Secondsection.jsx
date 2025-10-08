@@ -8,7 +8,7 @@ function Secondsection() {
         <div className="flex flex-col sm:flex-row">
           <div className="secondfct flex flex-col sm:flex-row">
             <img className="foverimg" src="./secc.png" alt="ss" />
-            <img className="secoverimg" src="./secondimg.png" alt="ss" />
+            <img className="secoverimg hidden lg:block" src="./secondimg.png" alt="ss" />
           </div>
           <div className="secondsct">
             <div className="abtph text-black">
